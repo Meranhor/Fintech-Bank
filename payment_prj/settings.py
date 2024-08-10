@@ -12,11 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("SECRET_KEY")
-print(SECRET_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("IS_DEVELOPPEMENT", True)
-print(DEBUG)
 
 # ALLOWED_HOSTS = ["*"]
 ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "*")]
