@@ -17,7 +17,8 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("IS_DEVELOPPEMENT", True)
 
 # ALLOWED_HOSTS = ["*"]
-ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "*")]
+# ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "*")]
+ALLOWED_HOSTS = ["cpirolley.up.railway.app"]
 
 
 # Application definition
