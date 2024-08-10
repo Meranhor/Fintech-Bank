@@ -1,11 +1,11 @@
 /*============================================ 
-# Template Name: Paylio 
+# Template Name: Paybank 
 # Version: 1.0
 # Date: 26/04/2022
 # Author: pixelaxis
 # Author URI: https://themeforest.net/user/pixelaxis/portfolio
 # Developed By: Pranto
-# Description: Paylio - Money Transfer and Online Payments HTML Template
+# Description: Paybank - Money Transfer and Online Payments HTML Template
 ============================================*/
 
 /*============================================ 
@@ -3861,8 +3861,8 @@ label {
         .logo {
         margin-top: 5px;
         position: relative;
-        width: 140px;
-        height: 30px;
+        width: 300px;
+        height: 60px;
         /* object-fit: fill; */
         }
         .logo span {

@@ -18,14 +18,9 @@ DEBUG = os.getenv("IS_DEVELOPPEMENT", True)
 
 # ALLOWED_HOSTS = ["*"]
 ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "*")]
-# ALLOWED_HOSTS = ["cpirolley.up.railway.app"]
-print(ALLOWED_HOSTS)
 
-CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGINS", "*")]
-# CSRF_TRUSTED_ORIGINS = [
-#     'cpirolley.up.railway.app',
-# ]
-print(CSRF_TRUSTED_ORIGINS)
+# CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGINS", "*")]
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -165,10 +160,10 @@ AUTH_USER_MODEL = 'userauths.User'
 
 JAZZMIN_SETTINGS = {
     # "site_title": "MovieX",
-    "site_header": "Paylio",
+    "site_header": "Paybank",
     "site_brand": "Payment Made Easy...",
     # "site_logo": "images/logo.jpg",
-    "copyright": "Paylio - All RIght Reserverd © Copyright 2023",
+    "copyright": "Paybank - All RIght Reserverd © Copyright 2023",
     # "order_with_respect_to": ["core", 'userauths', "transactions" , 'addon', 'blog']
 
     
