@@ -20,6 +20,8 @@ ALLOWED_HOSTS = ["*"]
 # ALLOWED_HOSTS = [os.getenv("ALLOWED_HOSTS", "*")]
 # ALLOWED_HOSTS = ["cpirolley.up.railway.app"]
 
+CSRF_TRUSTED_ORIGINS = [os.getenv("CSRF_TRUSTED_ORIGINS", "*")]
+
 
 # Application definition
 
