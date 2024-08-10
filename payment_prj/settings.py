@@ -160,15 +160,12 @@ AUTH_USER_MODEL = 'userauths.User'
 
 JAZZMIN_SETTINGS = {
     # "site_title": "MovieX",
-    "site_header": "Paybank",
+    "site_header": "PayBank",
     "site_brand": "Payment Made Easy...",
-    # "site_logo": "images/logo.jpg",
+    # "site_logo": "..\static\assets\images\logo.png",
     "copyright": "Paybank - All RIght Reserverd © Copyright 2023",
     # "order_with_respect_to": ["core", 'userauths', "transactions" , 'addon', 'blog']
-
-    
 }
-
 
 
 # AWS_ACCESS_KEY_ID = "AKIAZK5IZZVYNHEWXOMW"

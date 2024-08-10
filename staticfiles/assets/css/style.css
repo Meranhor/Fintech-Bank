@@ -3861,8 +3861,8 @@ label {
         .logo {
         margin-top: 5px;
         position: relative;
-        width: 140px;
-        height: 30px;
+        width: 300px;
+        height: 60px;
         /* object-fit: fill; */
         }
         .logo span {
